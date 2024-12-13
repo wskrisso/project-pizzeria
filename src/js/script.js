@@ -85,7 +85,7 @@ const select = {
         event.preventDefault();
 
         /* find active product (product with an active class) */
-        const activeProduct = document.querySelector(classNames.menuProduct.wrapperActive);
+        const activeProduct = document.querySelector(select.all.menuProductsActive);
         
         /* if there's an active product and it's not thisProduct.element remove active class*/
         if (activeProduct && activeProduct != thisProduct.element) {
