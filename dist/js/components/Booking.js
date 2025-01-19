@@ -264,7 +264,7 @@ class Booking {
           .then(function(reservation){
             return reservation.json();
           })
-          .then(function(booking) {
+          .then(function() {
             thisBooking.makeBooked(payload.date, payload.hour, payload.duration, payload.table);
             alert('Table booked successfully!');
           });

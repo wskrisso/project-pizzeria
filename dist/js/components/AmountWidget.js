@@ -9,7 +9,7 @@ class AmountWidget extends BaseWidget {
 
       thisWidget.initActions();
     }
-    getElements(element) {
+    getElements() {
       const thisWidget = this;
       thisWidget.dom.input = thisWidget.dom.wrapper.querySelector(select.widgets.amount.input);
       thisWidget.dom.linkDecrease = thisWidget.dom.wrapper.querySelector(select.widgets.amount.linkDecrease);

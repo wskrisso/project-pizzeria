@@ -265,83 +265,17 @@
   ],
   "bookings": [
     {
-      "date": "2025-01-18",
-      "hour": "13:30",
-      "people": 2,
+      "date": "2025-01-21",
+      "hour": "14:00",
+      "people": null,
       "duration": null,
       "starters": [
         "water"
       ],
-      "table": null,
+      "table": 1,
       "phone": "1234",
-      "address": "test@test.pl",
+      "address": "",
       "id": 1
-    },
-    {
-      "date": "2025-01-18",
-      "hour": "13:30",
-      "people": 2,
-      "duration": 2,
-      "starters": [
-        "water"
-      ],
-      "table": null,
-      "phone": "1234",
-      "address": "test@test.pl",
-      "id": 2
-    },
-    {
-      "date": "2025-01-19",
-      "hour": "15:00",
-      "people": 2,
-      "duration": 3,
-      "starters": [
-        "water"
-      ],
-      "table": null,
-      "phone": "1234",
-      "address": "test@test.pl",
-      "id": 3
-    },
-    {
-      "date": "2025-01-18",
-      "hour": "16:00",
-      "people": 2,
-      "duration": 3,
-      "starters": [
-        "water"
-      ],
-      "table": 1,
-      "phone": "1234",
-      "address": "test@test.pl",
-      "id": 4
-    },
-    {
-      "date": "2025-01-18",
-      "hour": "16:00",
-      "people": 2,
-      "duration": 3,
-      "starters": [
-        "water",
-        "bread"
-      ],
-      "table": 1,
-      "phone": "1234",
-      "address": "test@test.pl",
-      "id": 5
-    },
-    {
-      "date": "2025-01-18",
-      "hour": "17:30",
-      "people": 3,
-      "duration": 3,
-      "starters": [
-        "water"
-      ],
-      "table": 2,
-      "phone": "1234",
-      "address": "test@test.pl",
-      "id": 6
     }
   ]
 }
